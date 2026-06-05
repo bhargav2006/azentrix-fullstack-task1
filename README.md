@@ -12,7 +12,7 @@ _A minimalist, premium, fully client-side budget tracker built with React, SQLit
 
 ## 🔗 Application Link
 
-[Personal Budget Tracker](https://budget-tracker-pi-five.vercel.app/)
+[Personal Budget Tracker](https://azentrix-fullstack-task1-bice.vercel.app/)
 
 ---
 
