@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/azentrix-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary SEO -->
+    <title>
+      Personal Budget Tracker | Income & Expense Management Dashboard
+    </title>
+
+    <meta
+      name="description"
+      content="A modern Personal Budget Tracker built with React and SQLite, allowing users to add, edit, and delete income and expense entries, visualize spending with charts, and track monthly financial performance."
+    />
+
+    <meta
+      name="keywords"
+      content="Budget Tracker, Expense Tracker, Income Tracker, Personal Finance Dashboard, Money Management, Financial Planning, Expense Management, Budgeting App, Finance Tracker, Monthly Summary"
+    />
+
+    <meta name="author" content="Bhargav Katakam" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ef2b2d" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Personal Budget Tracker | Finance Dashboard"
+    />
+
+    <meta
+      property="og:description"
+      content="Track income and expenses, manage personal finances, view monthly summaries, and analyze spending patterns with charts."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:site_name" content="Personal Budget Tracker" />
+
+    <meta property="og:image" content="/azentrix-logo.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="twitter:title" content="Personal Budget Tracker" />
+
+    <meta
+      name="twitter:description"
+      content="Manage income and expenses, monitor monthly budgets, and visualize spending through interactive charts."
+    />
+
+    <meta name="twitter:image" content="/azentrix-logo.png" />
+
+    <!-- Application Metadata -->
+    <meta name="application-name" content="Personal Budget Tracker" />
+
+    <meta name="apple-mobile-web-app-title" content="Budget Tracker" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        const theme =
+          localStorage.getItem("theme") ||
+          (window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+        if (theme === "dark") {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      })();
+    </script>
+  </head>
+  <body
+    class="bg-background text-textPrimary antialiased selection:bg-accent/10 selection:text-accent font-sans"
+  >
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

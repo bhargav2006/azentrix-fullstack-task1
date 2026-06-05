@@ -1,0 +1,33 @@
+### macOS
+.DS_Store
+
+### Windows
+Thumbs.db
+desktop.ini
+
+### Node
+node_modules/
+
+### Build outputs
+dist/
+build/
+out/
+
+### Vite / caches
+.vite/
+.cache/
+.parcel-cache/
+
+### Environment
+.env
+.env.*.local
+.env.local
+
+### Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+!pnpm-lock.yaml
